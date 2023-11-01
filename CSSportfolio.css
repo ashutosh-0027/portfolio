@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+}
+/* .whole{
+    height:670px;
+    width: 100%;
+    background-color: darkcyan;
+} */
+header{
+    position: fixed;
+    margin-top: 20px;
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+    font-size: 20px;
+    right: 0;
+}
+header a:hover:not(:last-child){
+    color: black;
+}
+header a:not(:last-child){
+    text-decoration: none;
+    font-family: 'Gabarito', sans-serif;
+    color: #D3D3D3;
+    font-size: 30px;
+    cursor: grab;
+}
+header button{
+    height: 20px;
+}
+header a:last-child{
+        height: 30px;
+        width: fit-content;
+        background-color: aqua;
+        border-radius: 10px;
+        padding: 7px 15px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home h1 span{
+    letter-spacing: 5px;
+    background-image: linear-gradient(black,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    font-size: 80px;
+
+}
+.home h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color:lightcyan;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.image{
+    height: 70vh;
+    /* border: solid; */
+    position: relative;
+    top: 60px;
+}
+.image img{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    border-radius: 20px;
+}
+.letter{
+    height: 30vh;
+    width: 150vh;
+    /* border: solid; */
+    position: relative;
+    top: 160px; 
+}
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skill{
+    height: 100vh;
+    width: 100%;
+    background-color: brown;
+}
+.skill-one{
+    height: 60vh;
+    width: 50%;
+    /* border: solid; */
+    position: relative;
+    top: 20%;
+    left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skill-one img{
+    height: 170px;
+    width: 170px;
+}
+.skill-one div p{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.project{
+    height: 100vh;
+    width: 100%;
+    background-color:yellow;
+}
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: crimson;
+}
+table{
+    height: 300px;
+    width: 50%;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    /* margin-top: 100px;
+    margin-left: 1%; */
+}
+table h1{
+    padding-left: 18%;
+    font-size: 50px;
+    color: whitesmoke;
+}
+table p{
+    padding-left: 20%;
+    font-size: 20px;
+    color: whitesmoke;
+}
+table .a{
+    height: 5px;
+    width: 200%;
+    padding: 10%;
+    margin-top: 15%;
+    background-color: whitesmoke;
+}
+table .b{
+    height: 7px;
+    width: 200%;
+    padding: 10%;
+    background-color: whitesmoke;
+}
+table .c{
+    height: 70px;
+    width: 200%;
+    padding: 10%;
+    background-color: whitesmoke;
+}
+table .d{
+    position: relative;
+    left: 400px;
+    font-size: 20px;
+}
